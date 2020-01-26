@@ -1,14 +1,14 @@
 {
-  "name": "gatsby-starter-hyperspace",
+  "name": "property-pack-landing-page",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Hyperspace by HTML5 UP",
+  "description": "Landing page for Property Pack",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-hyperspace.git"
+    "url": "git@github.com:leesh22/property-pack-website.git"
   },
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Alicia Collymore",
+    "email": "info@thepropertypack.com"
   },
   "dependencies": {
     "gatsby": "^2.4.3",
@@ -43,8 +43,4 @@
     "gatsby-starter-hyperspace"
   ],
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-hyperspace/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-hyperspace#readme"
 }
