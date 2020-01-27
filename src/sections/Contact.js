@@ -15,7 +15,7 @@ const Contact = () => (
     </p>
     <div className="split style1">
       <section>
-        <form method="post" action="#">
+        <form method="post" action="#" data-netlify="true">
           <div className="fields">
             <div className="field half">
               <label for="name">Name</label>
