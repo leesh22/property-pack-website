@@ -16,20 +16,20 @@ const Contact = () => (
     <div className="split style1">
       <section>
         <form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
-          <div className="fields">
-            <div className="field half">
+          <p className="fields">
+            <p className="field half">
               <label for="name">Name</label>
               <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
+            </p>
+            <p className="field half">
               <label for="email">Email</label>
               <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
+            </p>
+            <p className="field">
               <label for="message">Message</label>
               <textarea name="message" id="message" rows="5" />
-            </div>
-          </div>
+            </p>
+          </p>
           <ul className="actions">
             <li>
               <button type="submit" className="button submit" >Send Message</button>
