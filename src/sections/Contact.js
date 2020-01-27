@@ -15,7 +15,7 @@ const Contact = () => (
     </p>
     <div className="split style1">
       <section>
-        <form method="post" action="#" data-netlify="true">
+        <form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
           <div className="fields">
             <div className="field half">
               <label for="name">Name</label>
