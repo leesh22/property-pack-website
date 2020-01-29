@@ -12,7 +12,21 @@ const Contact = () => (
     </p>
     <div className="split style1">
       <section>
-        <form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
+      <form name="contact" method="POST" data-netlify="true">
+          <p>
+            <label>Your Name: <input type="text" name="name" /></label>
+          </p>
+          <p>
+            <label>Your Email: <input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label>Message: <textarea name="message"></textarea></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
+        {/* <form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
           <div className="fields">
             <p className="field half">
               <label htmlFor="name">Name</label>
@@ -32,7 +46,7 @@ const Contact = () => (
               <button type="submit" className="button submit" >Send Message</button>
             </li>
           </ul>
-        </form>
+        </form> */}
       </section>
       <section>
         <ul className="contact">
