@@ -7,14 +7,14 @@ import pic2 from '../images/homestay-pool.jpg';
 import InfoItem from '../components/info-item';
 
 const descriptions = {
-  item1: 'Just say anything, George, say what ever\'s natural, the first thing that comes to your mind. Take that you mutated son-of-a-bitch. My pine, why you. You space bastard, you killed a pine.',
-  item2: 'You do? Yeah, it\'s 8:00. Hey, McFly, I thought I told you never to come in here. Well it\'s gonna cost you. How much money you got on you?'
+  item1: 'Display all your OTA bookings in one place.  Set rates and block dates via 1 simple log in. You\'ll never have to remember all your logins again!',
+  item2: 'Stop paying high commission rates by accepting bookings through your own personalized webpage.'
 }
 
 const Panels = () => (
   <section id="one" className="wrapper style2 spotlights">
-    <InfoItem img={pic1} title='info panel one' description={descriptions.item1}/>
-    <InfoItem img={pic2} title='info panel two' description={descriptions.item1}/>
+    <InfoItem img={pic1} title='Channel Manager' description={descriptions.item1}/>
+    <InfoItem img={pic2} title='Payment Manager (Coming soon)' description={descriptions.item1}/>
   </section>
 );
 

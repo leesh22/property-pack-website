@@ -8,7 +8,7 @@ const Intro = () => (
     <div className="inner">
       <img className="logo-main" src={logo} alt="" data-position="25% 25%" />
       <p>
-        Just another Channel Manager
+      An all in one system which helps hotels, hostels, vacation rentals, guesthouses and homestays save time and automate operations.
       </p>
       <ul className="actions">
         <li>

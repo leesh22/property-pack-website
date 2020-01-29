@@ -11,19 +11,15 @@ const descriptions = {
 const Services = () => (
   <section id="two" className="wrapper style3 fade-up">
   <div className="inner">
-    <h2>What we do</h2>
-    <p>
-      Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam
-      turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus,
-      lacus eget hendrerit bibendum, urna est aliquam sem, sit amet
-      imperdiet est velit quis lorem.
-    </p>
+    <h2>What we offer</h2>
 
     <div className="features">
-      <ServiceItem icon='fa-code' title='service 1' description={descriptions.service1}/>
-      <ServiceItem icon='fa-lock' title='service 2' description={descriptions.service1}/>
-      <ServiceItem icon='fa-cog' title='service 3' description={descriptions.service1}/>
-      <ServiceItem icon='fa-desktop' title='service 4' description={descriptions.service1}/>
+      <ServiceItem icon='fa-code' title='Daybook' description={descriptions.service1}/>
+      <ServiceItem icon='fa-lock' title='Rates' description={descriptions.service1}/>
+      <ServiceItem icon='fa-cog' title='Inventory' description={descriptions.service1}/>
+      <ServiceItem icon='fa-desktop' title='Channel Manager' description={descriptions.service1}/>
+      <ServiceItem icon='fa-desktop' title='Booking Manager' description={descriptions.service1}/>
+      <ServiceItem icon='fa-desktop' title='OTA specialist' description={descriptions.service1}/>
     </div>
   </div>
 </section>
