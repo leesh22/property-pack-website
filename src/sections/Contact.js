@@ -5,7 +5,7 @@ import Form from '../components/Form';
 
 const Contact = () => (
 
-  <section id="three" className="wrapper style1 fade-up">
+  <section id="contact" className="wrapper style1 fade-up">
   <div className="inner">
     <h2>Get in touch</h2>
     <p>

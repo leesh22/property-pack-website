@@ -12,7 +12,7 @@ const descriptions = {
 }
 
 const Panels = () => (
-  <section id="one" className="wrapper style2 spotlights">
+  <section id="who" className="wrapper style2 spotlights">
     <InfoItem img={pic1} title='Channel Manager' description={descriptions.item1}/>
     <InfoItem img={pic2} title='Payment Manager (Coming soon)' description={descriptions.item1}/>
   </section>
