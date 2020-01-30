@@ -12,7 +12,7 @@ const Intro = () => (
       </p>
       <ul className="actions">
         <li>
-          <Scroll type="id" element="one">
+          <Scroll type="id" element="who">
             <a href="#who" className="button">
               More info
             </a>
