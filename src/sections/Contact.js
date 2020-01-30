@@ -24,21 +24,21 @@ const Contact = () => (
           <li>
             <h3>Social</h3>
             <ul className="icons">
-              <li>
+              {/* <li>
                 <a href="/#" className="fa-facebook">
                   <span className="label">Facebook</span>
                 </a>
-              </li>
+              </li> */}
               <li>
-                <a href="/#" className="fa-instagram">
+                <a href="/https://www.instagram.com/the_property_pack/" className="fa-instagram">
                   <span className="label">Instagram</span>
                 </a>
               </li>
-              <li>
+              {/* <li>
                 <a href="/#" className="fa-linkedin">
                   <span className="label">LinkedIn</span>
                 </a>
-              </li>
+              </li> */}
             </ul>
           </li>
         </ul>
