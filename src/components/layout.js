@@ -27,7 +27,7 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Hyperspace' },
+            { name: 'description', content: 'An all in one system which helps hotels, hostels, vacation rentals, guesthouses and homestays save time and automate operations.' },
             { name: 'keywords', content: 'site, web' },
           ]}
         >
