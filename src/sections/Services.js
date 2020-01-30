@@ -5,12 +5,12 @@ import ServiceItem from '../components/service-item';
 
 
 const descriptions = {
-  daybook:'Space, the final frontier. These are the voyages of the Starship Enterprise.',
-  rates:'Space, the final frontier. These are the voyages of the Starship Enterprise.',
-  inventory:'Space, the final frontier. These are the voyages of the Starship Enterprise.',
-  cm:'Space, the final frontier. These are the voyages of the Starship Enterprise.',
+  daybook:'A space to see an overview of all your upcoming booking information.',
+  rates:'Update all your OTA rates in one convenient place.',
+  inventory:' Store, edit and update all your room info from each OTA',
+  cm:'Add or edit your OTA connections.',
   bm:'Space, the final frontier. These are the voyages of the Starship Enterprise.',
-  specialist:'Space, the final frontier. These are the voyages of the Starship Enterprise.'
+  specialist:'Connect with one of our OTA specialists to help you optimize your listings!'
 }
 
 const Services = () => (
