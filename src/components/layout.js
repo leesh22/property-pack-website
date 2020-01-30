@@ -4,6 +4,13 @@ import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
 
 import '../assets/sass/main.scss';
+
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
+toast.configure()
+
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
@@ -26,7 +33,9 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <div>{children}</div>
+        <div className="app-container">
+          {children}
+        </div>
       </>
     )}
   />

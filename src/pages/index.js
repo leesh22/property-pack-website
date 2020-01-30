@@ -11,6 +11,7 @@ import Services from '../sections/Services';
 import Contact from '../sections/Contact';
 
 
+
 const IndexPage = () => (
   <Layout>
     <Sidebar />
