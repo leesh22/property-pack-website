@@ -30,7 +30,7 @@ const Contact = () => (
                 </a>
               </li> */}
               <li>
-                <a href="/https://www.instagram.com/the_property_pack/" className="fa-instagram">
+                <a href="https://www.instagram.com/the_property_pack/" className="fa-instagram">
                   <span className="label">Instagram</span>
                 </a>
               </li>
