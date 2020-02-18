@@ -17,30 +17,32 @@
 			}
 
 			> .image {
-				background-position: center center;
-				background-size: cover;
 				border-radius: 0;
 				display: block;
 				position: relative;
-				width: 25em;
+        width: 25em;
+        overflow: hidden;
+
 
 				img {
 					border-radius: 0;
-					display: block;
+          display: block;
+          width: 100%;
+          height: 100%;
 				}
 
-				&:before {
-					@include vendor('transition', 'opacity #{_duration(activation)} ease');
-					background: transparentize(_palette(bg), 0.1);
-					content: '';
-					display: block;
-					height: 100%;
-					left: 0;
-					opacity: 0;
-					position: absolute;
-					top: 0;
-					width: 100%;
-				}
+				// &:before {
+				// 	@include vendor('transition', 'opacity #{_duration(activation)} ease');
+				// 	background: transparentize(_palette(bg), 0.1);
+				// 	content: '';
+				// 	display: block;
+				// 	height: 100%;
+				// 	left: 0;
+				// 	opacity: 0;
+				// 	position: absolute;
+				// 	top: 0;
+				// 	width: 100%;
+				// }
 			}
 
 			> .content {
@@ -95,15 +97,17 @@
 			}
 
 			@include breakpoint('<=medium') {
-				display: block;
+				// display: block;
 
 				> .image {
-					width: 100%;
-					height: 50vh;
+          width: 50%;
+          overflow: hidden;
+					// height: 50vh
 				}
 
 				> .content {
-					width: 100%;
+          width: 50%;
+          padding: 1em 3em 1em 3em;
 				}
 
 				&.inactive,
@@ -114,11 +118,20 @@
 						}
 					}
 				}
-			}
+      }
+
+      $breakpoint-tablet: 568px;
+      @media (max-width: $breakpoint-tablet) {
+        @include vendor('display', 'block');
+
+        .image, .content {
+          width: 100%;
+        }
+
+      }
 
 			@include breakpoint('<=small') {
 				> .image {
-					height: 50vh;
 					min-height: 15em;
 				}
 

@@ -9,4 +9,11 @@
 	.logo-main {
     width: 40%;
     margin-bottom: 15px;
+
+    @include breakpoint('<=medium') {
+      width: 60%;
+    }
   }
+
+
+

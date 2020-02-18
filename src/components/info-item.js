@@ -3,9 +3,9 @@ import React from 'react';
 const InfoItem = (props) => (
 
   <section>
-    <a href="/#" className="image" alt="image">
+    <div  className="image">
       <img src={props.img} alt="" data-position="center center" />
-    </a>
+    </div>
     <div className="content">
       <div className="inner">
         <h2>{props.title}</h2>
