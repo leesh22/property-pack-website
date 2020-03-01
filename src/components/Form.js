@@ -54,7 +54,7 @@ class Form extends React.Component {
   render() {
     const { name, email, message } = this.state;
     return (
-        <form onSubmit={this.handleSubmit} name="contact" netlify netlify-honeypot="bot-field" hidden>
+        <form onSubmit={this.handleSubmit} name="contact" netlify netlify-honeypot="bot-field">
         <div className="fields">
           <p className="field half">
             <label htmlFor="name">Name</label>
