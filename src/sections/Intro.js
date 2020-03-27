@@ -7,8 +7,9 @@ const Intro = () => (
   <section id="intro" className="wrapper style1 fullscreen fade-up">
     <div className="inner">
       <img className="logo-main" src={logo} alt="" data-position="25% 25%" />
+      <p>Changing the travel Industry 1 reservation at a time!</p>
       <p>
-      An all in one system which helps hotels, hostels, vacation rentals, guesthouses and homestays save time and automate operations.
+      An all in one system which helps hotels, hostels, vacation rentals, guesthouses and homestays save time and automate operations. Read on to see how we can optimize your OTAs for more reservations.
       </p>
       <ul className="actions">
         <li>

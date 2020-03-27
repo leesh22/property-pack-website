@@ -8,8 +8,8 @@ const descriptions = {
   daybook:'A space to see an overview of all your upcoming booking information.',
   rates:'Update all your OTA rates in one convenient place.',
   inventory:' Store, edit and update all your room info from each OTA',
-  cm:'Add or edit your OTA connections.',
-  bm:'Space, the final frontier. These are the voyages of the Starship Enterprise.',
+  cm:'Let us help you list on more OTAs',
+  bm:'Add, edit and view upcoming Bookings',
   specialist:'Connect with one of our OTA specialists to help you optimize your listings!'
 }
 
