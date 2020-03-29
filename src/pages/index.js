@@ -7,6 +7,7 @@ import Sidebar from '../components/Sidebar';
 
 import Intro from '../sections/Intro';
 import Panels from '../sections/Panels';
+import Notices from '../sections/Notices';
 import Services from '../sections/Services';
 import Contact from '../sections/Contact';
 
@@ -19,6 +20,7 @@ const IndexPage = () => (
     <div id="wrapper">
       <Intro/>
       <Panels/>
+      <Notices/>
       <Services/>
       <Contact/>
     </div>
