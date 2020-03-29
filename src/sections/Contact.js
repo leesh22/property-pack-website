@@ -3,12 +3,16 @@ import React from 'react';
 
 import Form from '../components/Form';
 
+const Style = {
+  'marginU': 0
+}
+
 const Contact = () => (
 
   <section id="contact" className="wrapper style1 fade-up">
   <div className="inner">
     <h2>Get in touch</h2>
-    <p>
+    <p style={Style}>
       For more information on our services send us a message using the form below, or reach out to us on social media.
     </p>
     <p>Do you have an issue with your current Channel Manager, you would like fixed?  Let us know!</p>

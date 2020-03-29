@@ -7,7 +7,7 @@ import pic2 from '../images/homestay-pool.jpg';
 import InfoItem from '../components/info-item';
 
 const descriptions = {
-  item1: 'Display all your OTA bookings in one place.  Set rates and block dates via 1 simple log in. You\'ll never have to remember all your logins again! Let us expand your potential guests by getting you set up on more OTAS. Property Pack offers you more bookings and less time spent managing them!"',
+  item1: 'Display all your OTA bookings in one place.  Set rates and block dates via 1 simple log in. You\'ll never have to remember all your logins again! Let us expand your potential guests by getting you set up on more OTAs. Property Pack offers you more bookings and less time spent managing them!',
   item2: 'Stop paying high commission rates by accepting bookings through your own personalized webpage.'
 }
 
